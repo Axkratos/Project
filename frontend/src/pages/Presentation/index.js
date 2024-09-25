@@ -13,7 +13,7 @@ import Counters from "pages/Presentation/sections/Counters";
 import Information from "pages/Presentation/sections/Information";
 import routes from "routes";
 import footerRoutes from "footer.routes";
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/hero.jpg";
 
 function Presentation() {
   const navigate = useNavigate();

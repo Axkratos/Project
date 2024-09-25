@@ -146,7 +146,7 @@ const HouseForm = () => {
                         features: featuresArray
                     });
     
-                    setPopupMessage(`The predicted price is Rs ${response.data.prediction}`);
+                    setPopupMessage(`The predicted price is Rs Rs{response.data.prediction}`);
 
                     await sendFormDataToApi({
                         ...formData,
